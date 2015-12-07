@@ -4,6 +4,7 @@ import ro.jug.mvc.entities.User;
 
 import javax.inject.Inject;
 import javax.mvc.annotation.Controller;
+import javax.mvc.annotation.CsrfValid;
 import javax.ws.rs.*;
 
 @Controller
@@ -22,6 +23,7 @@ public class LoginController {
     };
 
     @POST
+    @CsrfValid
     public String loginUser(@FormParam("userName") String userName, @FormParam("password") String password) {
         User foundUser = userManager.getUser(userName, password);
         if (foundUser == null) {
