@@ -12,6 +12,7 @@
     <form action="login" method="post">
         <input type="text" id="userName" name="userName"><br>
         <input type="password" id="password" name="password"><br>
+        <input type="hidden" name="${mvc.csrf.name}" value="${mvc.csrf.token}"/>
         <input type="submit" value="Log in">
     </form>
 </head>
