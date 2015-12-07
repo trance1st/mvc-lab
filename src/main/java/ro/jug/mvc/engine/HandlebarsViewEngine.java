@@ -33,10 +33,10 @@ public class HandlebarsViewEngine implements ViewEngine {
 
         Models models = context.getModels();
         String viewName = context.getView();
-        viewName = "/WEB-INF/views/" + viewName;
+        String viewPath = "/WEB-INF/views/" + viewName;
 
         try (PrintWriter writer = context.getResponse().getWriter();
-             InputStream rs = servletContext.getResourceAsStream(viewName);
+             InputStream rs = servletContext.getResourceAsStream(viewPath);
              InputStreamReader in = new InputStreamReader(rs, "UTF-8");
              BufferedReader buf = new BufferedReader(in)) {
 
