@@ -27,10 +27,10 @@ Because the project use a database we will use the JavaDB embedded server wich c
 
 So, first we need to start the database engine by running:
 ```sh
-***/latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.bat
+***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.bat
 ```
 or for Linux:
 ```sh
-***/latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.sh
+***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.sh
 ```
 
