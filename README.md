@@ -11,6 +11,8 @@ Project set-up
 ============
 
 
+Compile the project
+-------------------
 ```sh
-curl -OL -k http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.0.1.zip
+mvn clean install
 ```
