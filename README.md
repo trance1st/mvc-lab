@@ -6,5 +6,6 @@ The lab instructions are in **/docs/lab.pdf** -> https://github.com/trance1st/mv
 Slides available here -> http://slides.com/bogdanposa/mvc-1-0/#/
 
 
-============
+
 Project set-up
+============
