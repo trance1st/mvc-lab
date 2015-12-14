@@ -10,3 +10,7 @@ Slides available here -> http://slides.com/bogdanposa/mvc-1-0/#/
 Project set-up
 ============
 
+
+```sh
+curl -OL -k http://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.0.1.zip
+```
