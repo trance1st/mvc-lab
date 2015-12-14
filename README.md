@@ -4,3 +4,7 @@ Repo for the Hands-on lab: MVC 1.0 with Java EE 8 -> https://bjug.ro/hands-on-la
 The lab instructions are in **/docs/lab.pdf** -> https://github.com/trance1st/mvc-lab/blob/master/docs/lab.pdf
 
 Slides available here -> http://slides.com/bogdanposa/mvc-1-0/#/
+
+
+============
+Project set-up
