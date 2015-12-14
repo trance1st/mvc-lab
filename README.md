@@ -34,3 +34,13 @@ or for Linux:
 ***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.sh
 ```
 
+Then start the GlassFish server
+```sh
+***\latest-glassfish\glassfish4\glassfish\bin\startserv.bat
+```
+or
+```sh
+***\latest-glassfish\glassfish4\glassfish\bin\startserv.sh
+```
+
+
