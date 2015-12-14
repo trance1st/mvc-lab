@@ -10,6 +10,7 @@ Slides available here -> http://slides.com/bogdanposa/mvc-1-0/#/
 Project set-up
 ============
 
+Check-out the project form github https://github.com/trance1st/mvc-lab
 
 Compile the project
 -------------------
