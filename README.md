@@ -23,7 +23,7 @@ Run the project
 
 To run the project simply execute the following command:
 ```sh
-***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.bat
+mvn clean package embedded-glassfish:run   
 ```
 We use *Maven Embedded GlassFish plugin (https://embedded-glassfish.java.net/)u
 
