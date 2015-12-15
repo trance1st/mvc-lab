@@ -25,8 +25,8 @@ To run the project simply execute the following command:
 ```sh
 mvn clean package embedded-glassfish:run   
 ```
-We use **Maven Embedded GlassFish plugin (https://embedded-glassfish.java.net/)u
+We use **Maven Embedded GlassFish plugin** (https://embedded-glassfish.java.net/)u
 
-Of course you can mannualy deploy the war into GlassFish but keep in mind that you need at leat Glassfish 4.1.1 to run this project (you can get the server from here: http://download.oracle.com/glassfish/4.1.1/nightly/index.html)
+*Of course you can mannualy deploy the war into GlassFish but keep in mind that you need at leat Glassfish 4.1.1 to run this project (you can get the server from here: http://download.oracle.com/glassfish/4.1.1/nightly/index.html)*
 
 
