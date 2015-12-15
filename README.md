@@ -16,31 +16,17 @@ Import the project into your favortie IDE. For this demos we will use IntelliJ I
 Compile the project
 -------------------
 ```sh
-mvn clean install
+mvn clean package
 ```
 Run the project
 -------------------
-To run this project you will need GlassFish server al leat version 4.1.1.
-You can get the server from here: http://download.oracle.com/glassfish/4.1.1/nightly/index.html
 
-Because the project use a database we will use the JavaDB embedded server wich comes with GlassFish.
-
-So, first we need to start the database engine by running:
+To run the project simply execute the following command:
 ```sh
 ***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.bat
 ```
-or for Linux:
-```sh
-***\latest-glassfish\glassfish4\javadb\bin\setNetworkClientCP.sh
-```
+We use *Maven Embedded GlassFish plugin (https://embedded-glassfish.java.net/)u
 
-Then start the GlassFish server
-```sh
-***\latest-glassfish\glassfish4\glassfish\bin\startserv.bat
-```
-or
-```sh
-***\latest-glassfish\glassfish4\glassfish\bin\startserv.sh
-```
+Of course you can mannualy deploy the war into GlassFish but keep in mind that you need at leat Glassfish 4.1.1 to run this project (you can get the server from here: http://download.oracle.com/glassfish/4.1.1/nightly/index.html)
 
 
