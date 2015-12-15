@@ -44,7 +44,7 @@ As the main scope of the lab is to play with MVC 1.0, e.q to create controllers,
 In the package ro.jug.mvc.entities we have JPA entities: JugSession and User.
 
 
-In the package ro.jug.mvc.home; we have the HomeController class which is a simple controller that display the home page.
+In the package ro.jug.mvc.home we have the HomeController class which is a simple controller that display the home page.
 
 
 In the package ro.jug.mvc.rest we a class to start JAX-RS
