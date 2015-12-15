@@ -51,15 +51,15 @@ In the package ro.jug.mvc.rest we a class to start JAX-RS
 
 
 In the package ro.jug.mvc.sessions we have classes that deals whith JUG sessions:
-  SessionManager -> use it when you need to read or to create a session
+  * SessionManager -> use it when you need to read or to create a session
   
   
 In the package   ro.jug.mvc.test we have a startup bean named TestDataInserter which insert same dummy data into database and also login and default user into the app.
 
 
 In the package ro.jug.mvc.users we have classes that deals with the application users:
-  UserContext -> holds data about the logged user
-  UserManager -> read users informations
+  * UserContext -> holds data about the logged user
+  * UserManager -> read users informations
 
 
 
